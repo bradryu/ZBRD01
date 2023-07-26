@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>BALV Config Function Group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZBRD0001TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZBRD0001</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZBRD_GET_ALV_CONFIG</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Get BALV config from other system</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_PROGID</PARAMETER>
+       <TYP>CPROG</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ALV_KEY</PARAMETER>
+       <TYP>CHAR10</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_FCAT_KEY</PARAMETER>
+       <TYP>CHAR10</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_DATA</PARAMETER>
+       <DBSTRUCT>ZTBRD00020</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_PROGID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>CALL program</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ALV_KEY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Character Field Length = 10</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_FCAT_KEY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Character Field Length = 10</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>BALV Config Item</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZBRD_GET_TREE_ALV_CONFIG</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Get BALV config from other system</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_PROGID</PARAMETER>
+       <TYP>CPROG</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ALV_KEY</PARAMETER>
+       <TYP>CHAR10</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_FCAT_KEY</PARAMETER>
+       <TYP>CHAR10</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_DATA</PARAMETER>
+       <DBSTRUCT>ZTBRD00021</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_PROGID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>CALL program</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ALV_KEY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Character Field Length = 10</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_FCAT_KEY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Character Field Length = 10</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>BALV Config Item</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

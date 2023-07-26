@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_BRD_ALV</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>BALV</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>EXCEL_DOWNLOAD</CMPNAME>
+     <SCONAME>IT_HEADER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Key Text Pair</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ALV_ITAB</CMPNAME>
+     <SCONAME>EO_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Field Catalog for List Viewer Control</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ALV_ITAB</CMPNAME>
+     <SCONAME>ET_HEADER_LABEL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Strings</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ALV_ITAB</CMPNAME>
+     <SCONAME>IV_ALV_KEY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character Field Length = 10</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ALV_ITAB</CMPNAME>
+     <SCONAME>IV_FCAT_KEY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character Field Length = 10</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ALV_ITAB</CMPNAME>
+     <SCONAME>IV_PROGID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP System Field: Calling Program</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE_ITAB_TO_EXCEL</CMPNAME>
+     <SCONAME>IT_HEADER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Key Text Pair</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ALV_CREATABLE</CMPNAME>
+     <SCONAME>IV_FLAG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>General Flag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ALV_DELETABLE</CMPNAME>
+     <SCONAME>IV_FLAG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>General Flag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ALV_UPDATABLE</CMPNAME>
+     <SCONAME>IV_FLAG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>General Flag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_ALV_UPLOADABLE</CMPNAME>
+     <SCONAME>IV_FLAG</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>General Flag</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
